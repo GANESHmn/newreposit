@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite-search_iphone]">
+  <test name="Test-iphone(failed)">
+    <classes>
+      <class name="Amazon_search.search_TC2">
+        <methods>
+          <include name="search_product_iphone7"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Amazon_search.search_TC2 -->
+    </classes>
+  </test> <!-- Test-iphone(failed) -->
+</suite> <!-- Failed suite [Suite-search_iphone] -->

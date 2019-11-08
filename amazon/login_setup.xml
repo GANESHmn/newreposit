@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2">
+<test name="test1">
+     <classes>          
+        <class name="Amazon_search.loginpage_TC1">
+         <methods>
+            <include name="setup"/>
+            <include name="login"/>
+            
+        </methods>
+        </class>
+      <!--   <class name="Amazon_search.search_TC1">
+          <methods>
+            <include name="setup"/>
+            <include name="login"/>
+            <include name="search_product"/>
+            <include name="search_product_iphone7"/>
+            
+          </methods>
+        </class>  -->
+        
+     </classes>     
+   </test>
+</suite>
+
+

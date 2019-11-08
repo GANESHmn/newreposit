@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite-Forgotpwd]]" parallel="classes">
+  <listeners>
+    <listener class-name="Utilities.Reporting"/>
+  </listeners>
+  <test name="Test-Forgotpwd(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="com.Laundry.PageObjects.Forgotpwd_TC2">
+        <methods>
+          <include name="setup"/>
+          <include name="forgotpwd02"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.Forgotpwd_TC2 -->
+    </classes>
+  </test> <!-- Test-Forgotpwd(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite-Forgotpwd]] -->

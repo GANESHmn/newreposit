@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" guice-stage="DEVELOPMENT" name="Failed suite [Suite-Editprofile]" parallel="classes">
+  <test name="Test-Editprofile(failed)" parallel="classes">
+    <classes>
+      <class name="com.Laundry.PageObjects.EditProfile_TC5">
+        <methods>
+          <include name="Editprofile5"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.EditProfile_TC5 -->
+      <class name="com.Laundry.PageObjects.EditProfile_TC4">
+        <methods>
+          <include name="setup"/>
+          <include name="Editprofile4"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.EditProfile_TC4 -->
+      <class name="com.Laundry.PageObjects.EditProfile_TC6">
+        <methods>
+          <include name="Editprofile6"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.EditProfile_TC6 -->
+      <class name="com.Laundry.PageObjects.EditProfile_TC1">
+        <methods>
+          <include name="Editprofile1"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.EditProfile_TC1 -->
+      <class name="com.Laundry.PageObjects.EditProfile_TC3">
+        <methods>
+          <include name="Editprofile3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.EditProfile_TC3 -->
+      <class name="com.Laundry.PageObjects.EditProfile_TC2">
+        <methods>
+          <include name="setup"/>
+          <include name="Editprofile2"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.EditProfile_TC2 -->
+    </classes>
+  </test> <!-- Test-Editprofile(failed) -->
+</suite> <!-- Failed suite [Suite-Editprofile] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="login-Suite" annotations="JDK" parallel="classes" thread-count="3">
+  <test name="login-Test">
+    <classes>
+      <class name="com.Laundry.PageObjects.Login_TC1"/>
+      <class name="com.Laundry.PageObjects.Login_TC2"/>
+      <class name="com.Laundry.PageObjects.Login_TC3"/>
+    </classes>
+  </test> <!-- login-Test -->
+</suite> <!-- login-Suite -->

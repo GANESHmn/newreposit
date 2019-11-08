@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
 
   <groupId>mavenart</groupId>
   <artifactId>mavenart</artifactId>
@@ -10,7 +10,8 @@
   <name>mavenart</name>
   <url>http://maven.apache.org</url>
 
-  <profiles>	<profile>
+            <profiles>
+            <profile>
 			<id>Smoke</id>
 			<build>	<pluginManagement> <plugins> <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
@@ -20,21 +21,28 @@
 			<suiteXmlFiles> <suiteXmlFile>testng.xml</suiteXmlFile> </suiteXmlFiles>
 			</configuration>
 			</plugin> </plugins> </pluginManagement> </build>
-	</profile>	</profiles>
+	        </profile>
+	        </profiles>
 
-  <dependencies>
+<dependencies>
+<!-- https://mvnrepository.com/artifact/ -->
 		<dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.141.59</version>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-java</artifactId>
+		<version>3.141.59</version>
 		</dependency>
-		
-	  	<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.11</version>
-			<scope>test</scope>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>6.11</version>
+		<scope>test</scope>
 		</dependency>
-		
-  </dependencies>
-</project>
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+        <dependency>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        </dependency>		
+        </dependencies>
+ </project>

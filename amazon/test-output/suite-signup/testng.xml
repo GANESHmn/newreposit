@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite-signup">
+  <test name="Test-signup">
+    <classes>
+      <class name="Amazon_search.Signup_TC1"/>
+    </classes>
+  </test> <!-- Test-signup -->
+</suite> <!-- Suite-signup -->

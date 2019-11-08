@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Suite-myorder" annotations="JDK" parallel="classes" thread-count="3"> 
+  <test name="Test-myorder">
+    <classes>
+      <class name="com.Laundry.PageObjects.MyOrders_TC1"/>
+      <class name="com.Laundry.PageObjects.MyOrders_TC2"/>
+      <class name="com.Laundry.PageObjects.MyOrders_TC3"/>
+    </classes>
+  </test> <!-- Test-myorder -->
+</suite> <!-- Suite-myorder -->

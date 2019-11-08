@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite-cards">
+  <test name="Test-cards">
+    <classes>
+      <class name="com.Laundry.PageObjects.CardsPage_TC1"/>      
+      <class name="com.Laundry.PageObjects.CardsPage_TC2"/>      
+      <class name="com.Laundry.PageObjects.CardsPage_TC3"/>     
+    </classes>
+  </test> <!-- Test-cards -->
+</suite> <!-- Suite-cards -->

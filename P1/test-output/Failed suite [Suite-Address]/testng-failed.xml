@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite-Address]]" parallel="classes">
+  <test name="Test-Address(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="com.Laundry.PageObjects.AddressPage_TC1">
+        <methods>
+          <include name="setup"/>
+          <include name="AddressPage1"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.AddressPage_TC1 -->
+      <class name="com.Laundry.PageObjects.AddressPage_TC2">
+        <methods>
+          <include name="setup"/>
+          <include name="AddressPage2"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.AddressPage_TC2 -->
+      <class name="com.Laundry.PageObjects.AddressPage_TC3">
+        <methods>
+          <include name="setup"/>
+          <include name="AddressPage3"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.AddressPage_TC3 -->
+    </classes>
+  </test> <!-- Test-Address(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite-Address]] -->

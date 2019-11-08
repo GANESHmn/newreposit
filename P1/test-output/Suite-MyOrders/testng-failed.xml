@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite-MyOrders]">
+  <test name="Test-MyOrders(failed)">
+    <classes>
+      <class name="com.Laundry.PageObjects.MyOrders_TC1"/>
+      <class name="com.Laundry.PageObjects.MyOrders_TC2"/>
+      <class name="com.Laundry.PageObjects.MyOrders_TC3"/>
+      
+        <!-- <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="MyOrders2"/>
+        </methods> -->
+      </class> <!-- com.Laundry.PageObjects.MyOrders_TC2 -->
+    </classes>
+  </test> <!-- Test-MyOrders(failed) -->
+</suite> <!-- Failed suite [Suite-MyOrders] -->

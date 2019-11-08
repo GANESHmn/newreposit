@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  guice-stage="DEVELOPMENT"  name="Suite-Editprofile" annotations="JDK" parallel="classes" thread-count="6">
+  <test name="Test-Editprofile">
+    <classes>
+      <class name="com.Laundry.PageObjects.EditProfile_TC1"/>      
+      <class name="com.Laundry.PageObjects.EditProfile_TC2"/>      
+      <class name="com.Laundry.PageObjects.EditProfile_TC3"/>      
+      <class name="com.Laundry.PageObjects.EditProfile_TC4"/>      
+      <class name="com.Laundry.PageObjects.EditProfile_TC5"/>      
+      <class name="com.Laundry.PageObjects.EditProfile_TC6"/>
+    </classes>
+  </test> <!-- Test-Editprofile -->
+</suite> <!-- Suite-Editprofile -->

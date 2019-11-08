@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite-Profile]]">
+  <test name="Test-Profile(failed)(failed)">
+    <classes>
+      <class name="com.Laundry.PageObjects.EditProfile_TC6">
+        <methods>
+          <include name="Editprofile6"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.EditProfile_TC6 -->
+    </classes>
+  </test> <!-- Test-Profile(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite-Profile]] -->

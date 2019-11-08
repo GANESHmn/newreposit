@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite-HomePage]" parallel="classes">
+  <test name="Test-homePage(failed)" parallel="classes">
+    <classes>
+      <class name="com.Laundry.PageObjects.HomePage_TC4">
+        <methods>
+          <include name="setup"/>
+          <include name="Homepage16"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.HomePage_TC4 -->
+      <class name="com.Laundry.PageObjects.HomePage_TC3">
+        <methods>
+          <include name="Homepage3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.HomePage_TC3 -->
+      <class name="com.Laundry.PageObjects.HomePage_TC2">
+        <methods>
+          <include name="setup"/>
+          <include name="Homepage2"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.HomePage_TC2 -->
+      <class name="com.Laundry.PageObjects.HomePage_TC1">
+        <methods>
+          <include name="setup"/>
+          <include name="Homepage4"/>
+          <include name="Homepage3"/>
+          <include name="Homepage2"/>
+          <include name="Homepage1"/>
+        </methods>
+      </class> <!-- com.Laundry.PageObjects.HomePage_TC1 -->
+    </classes>
+  </test> <!-- Test-homePage(failed) -->
+</suite> <!-- Failed suite [Suite-HomePage] -->

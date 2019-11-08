@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" guice-stage="DEVELOPMENT" annotations="JDKl" parallel="classes" thread-count="9">
+  <test name="Login-Test">
+    <classes>
+    <class name="com.Laundry.PageObjects.Signup_TC1">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+      <class name="com.Laundry.PageObjects.Signup_TC2">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+        <class name="com.Laundry.PageObjects.Signup_TC3">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+        <class name="com.Laundry.PageObjects.Signup_TC4">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+        <class name="com.Laundry.PageObjects.Signup_TC5">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+        <class name="com.Laundry.PageObjects.Signup_TC6">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+        <class name="com.Laundry.PageObjects.Signup_TC7">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+        <class name="com.Laundry.PageObjects.Signup_TC8">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+        <class name="com.Laundry.PageObjects.Signup_TC9">
+        <methods>
+          <include name="setup"/>
+          <include name="SignupTest"/>
+        </methods>
+        </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

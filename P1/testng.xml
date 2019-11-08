@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite-login1" parallel="classes">
+  <test name="Test-login1">
+    <classes>
+      <class name="com.Laundry.PageObjects.Login_TC1"/>
+    </classes>
+  </test> <!-- Test-login1 -->
+</suite> <!-- Suite-login1 -->
